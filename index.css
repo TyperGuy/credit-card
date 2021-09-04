@@ -3,5 +3,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Josefin Sans' 'Sans Serif';
+  font-family: 'Josefin Sans' 'sans-erif';
+}
+
+.container{
+  max-width: 100vh;
+  width: 100%;
+  color: #000;
+}
+
+.card{
+  width: 500px;
+  height: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.card-inner{
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
