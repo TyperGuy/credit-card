@@ -53,6 +53,10 @@
   max-height: 40px;
   z-index: 10;
 }
+.bai{
+   width:100px;
+   height:300px;
+}
 .map{
   width: 100%;
   position: absolute;
