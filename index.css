@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Josefin Sans' 'sans-erif';
+  font-family: 'Josefin Sans' 'sans-serif';
 }
 
 .container{
@@ -35,7 +35,8 @@
   border-radius: 20px;
   padding: 30px 30px;
   overflow: hidden;
-  position: relative;
+  position:absolute;
+  z-index: 1;
 }
 .row{
   display: flex;
@@ -54,6 +55,7 @@
   top: 0;
   left: 0;
   opacity: 0.3;
+  z-index: -1;
 }
 .card-number{
   font-size: 1.5rem;
@@ -69,6 +71,6 @@
 }
 .bar{
   background: #222;
-  margin: -30px 10px;
+  margin: 10px -30px ;
   height: 60px;
 }
