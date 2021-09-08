@@ -37,6 +37,7 @@
   overflow: hidden;
   position:absolute;
   z-index: 1;
+  backface-visibility: hidden;
 }
 .row{
   display: flex;
@@ -100,4 +101,7 @@
 }
 .signature{
   margin-top: 30px;
+}
+.back{
+  transform: rotateY(180deg);
 }
