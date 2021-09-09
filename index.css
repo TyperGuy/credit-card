@@ -30,6 +30,9 @@
   transition: transform 1s;
   transform-style: preserve-3d;
 }
+.hideble{
+  font-size: 2.5rem;
+}
 
 .front,.back{
   width: 100%;
@@ -114,4 +117,14 @@
 }
 .card:hover .card-inner{
   transform: rotateY(-180deg);
+}
+
+.simple-ball{
+  width: 45px;
+  height: 45px;
+  background-color: #000000;
+  border-radius: 50%;
+  z-index: 10;
+  margin-right: -15px;
+  
 }
