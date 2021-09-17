@@ -3,4 +3,4 @@
 
 # Como Rodar
 ### 1-Faça Clone Do repositorio
-#### git clone git@github.com:TyperGuy/credit-card.git
+git clone git@github.com:TyperGuy/credit-card.git
